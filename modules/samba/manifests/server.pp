@@ -17,7 +17,6 @@ class samba::server (
   $hosts_allow = [],
   $log_file = '/var/log/samba/log.%m',
   $max_log_size = '10000',
-  $passdb_backend = 'tdbsam',
   $domain_master = false,
   $domain_logons = false,
   $local_master = undef,
